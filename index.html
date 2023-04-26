@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justine Tence Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img class="avatar" src="./assets/images/Justine-Tence.jpg" alt="Justine Tence" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Justine Tence">Justine Tence</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jstence@up.edu.ph" class="contact-link">jstence@up.edu.ph</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+639955588913" class="contact-link">+63 (995) 558-8913</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Metro Manila, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/justinetence/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello World! I am Justine, a software engineer who aims to leverage my skills in an environment
+            that values a proactive approach to utilizing cutting-edge technologies.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  HTML, CSS, JavaScript, Python, Django, Flask, Jinja, SQLs, Git, Heroku, ngrok
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Development</h4>
+
+                <p class="service-item-text">
+                  Flutter, Dart, Android
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ml.png" alt="ai icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning Engineering</h4>
+
+                <p class="service-item-text">
+                  Google Cloud, Colab, Keras, Tensorflow, Python
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  Figma, Adobe Tools
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - Clients / Companies I've been affiliated with
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Companies I've Been Affiliated With</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+                <img src="./assets/images/google-logo.png" alt="Google logo">
+            </li>
+
+            <li class="clients-item">
+                <img src="./assets/images/github-logo.png" alt="GitHub logo">
+            </li>
+
+            <li class="clients-item">
+                <img src="./assets/images/accenture-logo.png" alt="Accenture logo">
+            </li>
+
+            <li class="clients-item">
+                <img src="./assets/images/ti-logo.png" alt="Texas Instruments logo">
+            </li>
+
+            <li class="clients-item">
+                <img src="./assets/images/intel-logo.png" alt="Intel logo">
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #EDUCATION
+      -->
+
+      <article class="education" data-page="education">
+
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Academics</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of the Philippines Manila</h4>
+              <h5 class="h5 timeline-item-subtitle">BS Computer Science, Major in Statistical Computing</h5>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                — Magna Cum Laude <br>
+                — Consistent President’s and Dean’s Lister <br>
+                — Department of Science and Technology Merit Scholar <br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Las Piñas Science High School</h4>
+              <h5 class="h5 timeline-item-subtitle">Science, Technology, Engineering, & Mathematics</h5>
+
+              <span>2012 — 2018</span>
+
+              <p class="timeline-text">
+                — Top 3 of graduating batch <br>
+                — Academic Excellence Award w/ High Honors (GPA: 95%+)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Scholarship Grants</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DOST-SEI Merit Scholarship</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                — Awarded to students with high aptitude in science and mathematics
+                and are willing to pursue careers in the fields of science and technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">FEU Entrance Scholarship</h4>
+
+              <span>2018</span>
+
+              <p class="timeline-text">
+                — Awarded to exemplary high school students who
+                have a superior rating in the FEU College Admissions Test
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DLSU Manila Parmenie Scholarship</h4>
+
+              <span>2016</span>
+
+              <p class="timeline-text">
+                — Awarded to top performing public school students in the SHS Admission and Placement Exam
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #EXPERIENCE
+      -->
+
+      <article class="experience" data-page="experience">
+
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Technical Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Google Developer Student Clubs Lead</h4>
+              <h5 class="h5 timeline-item-subtitle">Google</h5>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                — Managed and updated the chapter’s official website throughout the year <br>
+                — GDSC Summit 2022 Speaker along with SEA Regional Lead and Country Community Manager <br>
+                — Executed a total of 6 projects for the year
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project-based Software Developer</h4>
+              <h5 class="h5 timeline-item-subtitle">University of the Philippines</h5>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                — Programmed various projects that range from application development (web, mobile, & game) to machine learning <br>
+                — Communicated with different clients and stakeholders that are partnered with the university
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Leadership Conference Delegate</h4>
+              <h5 class="h5 timeline-item-subtitle">Accenture</h5>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                — Qualified in a multi-day online experience designed for the country's top-performing technology students <br>
+                — Developed a mobile app prototype that uses data science and AI to ensure access to clean and affordable energy in rural areas <br>
+                — Awarded team presentation finalist, strategic leader and ultimate champion nominee
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Edge AI Training Country Representative</h4>
+              <h5 class="h5 timeline-item-subtitle">Intel</h5>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                — Scored 100% in their AI training assessment <br>
+                — Assisted Intel’s Deep Learning Training Team by introducing their exclusive Edge AI focused Online Training on the campus <br>
+                — Represented the Philippines in their Asia Pacific, Japan, and China initiative
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Application Developer Intern</h4>
+              <h5 class="h5 timeline-item-subtitle">Texas Instruments</h5>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                — Intern edition hackathon 1st runner-up <br>
+                — Engineered a web report dashboard with data analytics for 8 global facilities and 10,000 engineers <br>
+                — Restructured their database, and optimized a reporting system’s cycle time from 48 hours to 5 minutes
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University Electoral Board & Technical Team Representative</h4>
+              <h5 class="h5 timeline-item-subtitle">Halalan Technical Team for Protection and Support</h5>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                — Administered the university-wide automated election system which processed over 2,000 votes that broke the downward trend of voter turnout since 2014 <br>
+                — Diagnosed and resolved technical concerns of the automated election system <br>
+                — Monitored and assisted student voters at different college precincts
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="walk-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Leadership Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Google Developer Groups Volunteer</h4>
+              <h5 class="h5 timeline-item-subtitle">Google</h5>
+
+              <span>2022 — present</span>
+
+              <p class="timeline-text">
+                — Hosted the biggest technology conference in the Phillippines, DevFest, with over 500 in-person and 2000 remote participants <br>
+                — Worked with Women Techmakers for International Women's Day Manila
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">GitHub Field Day Core Team</h4>
+              <h5 class="h5 timeline-item-subtitle">GitHub</h5>
+
+              <span>2022 — present</span>
+
+              <p class="timeline-text">
+                — Collaborated with Microsoft Learn Student Ambassadors and GitHub Campus Experts in organizing the Philippines’ first Github Field Day, a regional unconference for leaders of technical student communities with topics ranging from Web3 to AI <br>
+                — Spearheaded marketing campaigns in all channels of distribution which pushed follower growth by 1000% <br>
+                — Curated social media posts, swags, posters, and other designs
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Google Developer Student Clubs Lead</h4>
+              <h5 class="h5 timeline-item-subtitle">Google</h5>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                — Manila Chapter Founder & Chief Executive Officer <br>
+                — Represented the chapter at global networking events with 1500 fellow leads, and monthly sync meetings with the Developer Community Manager <br>
+                — Oversaw the Operations, Technology, Communications, Finance & Externals Departments
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Chief Executive Officer</h4>
+              <h5 class="h5 timeline-item-subtitle">UP Society of Computer Scientists</h5>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                — Coordinated with all standing committees specifically the Projects, Marketing, Public Relations & Creatives Committee <br>
+                — Called and presided over all internal meetings such as onboarding, project kickoffs, and retrospective meetings <br>
+                — Communicated with partner companies and stakeholders <br>
+                — Launched a Tech Summit for the organization’s 25th anniversary which increased funds and network by more than 10 folds
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VP for Projects & Creative Committee Head</h4>
+              <h5 class="h5 timeline-item-subtitle">UP Society of Computer Scientists</h5>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                — Launched the organization's first virtual webinar series that gave the opportunity to over 500 aspiring computer scientists all over the Philippines to learn the basics of programming and web development <br>
+                — Managed 30 committee members in the production of official publicity, certification, and source materials for the organization’s projects
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a>
+                <figure class="project-img">
+                  <img src="./assets/images/projects/covid-19-ai.png" alt="COVID-19.ai" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">COVID-19.ai</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+                <p class="project-text">
+                  A web application that predicts the next COVID-19 variant using AI/ML.
+                  This project was qualified for research poster presentation at the
+                  National Academy of Science & Technology, 44th Annual Scientific Meeting,
+                  the most prestigious Philippine scientific conference <br><br>
+
+                  <b>Google Cloud, Colab, Keras, Tensorflow, Python</b>
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a>
+                <figure class="project-img">
+                  <img src="./assets/images/projects/keep-up.png" alt="KeepUP: Keep Urself Productive" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KeepUP: Keep Urself Productive</h3>
+
+                <p class="project-category">Web</p>
+
+                <p class="project-text">
+                  A productivity web application designed for college students.
+                  Features include a Pomodoro timer, task manager, class scheduler, analytics, and badge system <br><br>
+
+                  <b>Python, Flask, PostgreSQL, Heroku, ngrok, Git, JavaScript, Bootstrap, HTML, CSS, Jinja, and Flask-SQLAlchemy</b>
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a>
+                <figure class="project-img">
+                  <img src="./assets/images/projects/upbank.png" alt="UPBank" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UPBank: Auto Loan System</h3>
+
+                <p class="project-category">Web</p>
+
+                <p class="project-text">
+                   An information system that enables potential borrowers to apply for a car loan.
+                  Features include a loan calculator, loan application system, fund deposit, over-the-counter loan payments, and auto-debit<br><br>
+
+                  <b>Python, JavaScript, Django, SQLite, HTML, CSS, Bootstrap, Git</b>
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web">
+              <a>
+                <figure class="project-img">
+                  <img src="./assets/images/projects/web-report.png" alt="Web Report Optimization & Analytics" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Report Optimization & Analytics</h3>
+
+                <p class="project-category">Web</p>
+
+                <p class="project-text">
+                  A web report dashboard with data analytics for 8 global facilities and 10,000 engineers.
+                  Also, restructured their database, and optimized a reporting system’s cycle time from 48 hours to 5 minutes
+                  <br><br>
+
+                  <b>Spotfire, IronPython Automation, PL/SQL, Toad for Oracle</b>
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile">
+              <a>
+                <figure class="project-img">
+                  <img src="./assets/images/projects/gogive-ph.png" alt="GoGive PH App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GoGive PH App</h3>
+
+                <p class="project-category">Mobile</p>
+
+                <p class="project-text">
+                  A mobile application for GoGive PH, a non-profit initiative that has currently raised over
+                  80,000 pesos for various charity organizations through online shopping without added cost <br><br>
+
+                  <b>Flutter, Dart, Figma, Android</b>
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile">
+              <a>
+                <figure class="project-img">
+                  <img src="./assets/images/projects/x-benefit.png" alt="X-Benefit" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">X-Benefit</h3>
+
+                <p class="project-category">Mobile</p>
+
+                <p class="project-text">
+                  A mobile application prototype designed as UP Manila and Philippine General Hospital's official submission for a XDP hackathon. <br><br>
+
+                  <b>Figma, Adobe Photoshop, FHIR Server</b>
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile">
+              <a>
+                <figure class="project-img">
+                  <img src="./assets/images/projects/greenergy.png" alt="Greenergy PH" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Greenergy PH</h3>
+
+                <p class="project-category">Mobile</p>
+
+                <p class="project-text">
+                  A mobile application prototype that uses data science and AI to ensure access to clean and affordable energy in rural areas.
+                  Awarded Team Presentation Finalist, Strategic Leader and Ultimate Champion nominee at Accenture's Student Leadership Conference. <br><br>
+
+                  <b>Figma, Adobe Photoshop, Canva</b>
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a>
+                <figure class="project-img">
+                  <img src="./assets/images/projects/heart-prediction.png" alt="Heart Failure Patients’ Survival Prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Heart Failure Patients’ Survival Prediction</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+                <p class="project-text">
+                   Implemented different machine learning algorithms to predict the survival of patients having cardiovascular disease
+                  <br><br>
+
+                  <b>Python, Scikit-learn, Google Colab</b>
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a>
+                <figure class="project-img">
+                  <img src="./assets/images/projects/beef-classification.png" alt="Beef Classification Using E-Nose Data " loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Beef Classification Using E-Nose Data</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+                <p class="project-text">
+                  Utilized multiple machine learning models to perform multiclass beef classification wherein
+                  performance analysis and comparison were done through various classification measures.
+                  <br><br>
+
+                  <b>Python, Scikit-learn, Google Colab</b>
+                </p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+        </section>
+
+      </article>
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
